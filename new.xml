@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<myself>
+<about_myself>
 	<name>Talanova Olga Nikolaevna</name>
 	<age>42</age>
-	<numbers of pets>1</numbers of pets>
-	<expected selery>50000</expected selery>
-</myself>
+	<numbers_of_pets>1</numbers_of_pets>
+	<expected_selery>50000</expected_selery>
+</about_myself>
