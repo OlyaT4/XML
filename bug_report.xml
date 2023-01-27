@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+	<id>1<id>
+	<referense_on_test-case_or_specification>TK02</referense_on_test-case_or_specification>
+	<title>Не отсекается знак пробела после введенного значения в поле «Имя» после перехода на другое поле</title>
+	<severity>Minor</severity>
+	<priority>Low</priority>
+	<environment>macOS 11.6, Safari Версия 15.0 (16612.1.29.41.4, 16612)</environment>
+	<steps_to_reproduce>Предусловие: пользователь не зарегистрирован, зайти на страницу https://account.mail.ru/signup?from=navi&lang=ru_RU&siteid=169&app_id_mytracker=58519 2. Обязательные поля, кроме поля «Имя» заполнены валидными данными 3. В поле «Имя» ввести значение <Имя>  4. Ввести знак пробела. 5. Перейти на другое поле</steps_to_reproduce>
+	<actual_result>При переходе на другое поле, в программном коде страницы (DevTools, вкладка Elements) отображается значение переменной (value) с замыкающим пробелом. Регистрация успешна.</actual_result>
+	<expeccted_result>При переходе на другое поле, в программном коде страницы (DevTools, вкладка Elements) отображается значение переменной (value) без ведущих и замыкающих пробелов. Регистрация успешна.</expeccted_result>
+</bug_report>
